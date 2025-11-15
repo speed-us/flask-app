@@ -1,0 +1,61 @@
+{
+    "page": "Job Search UI",
+    "header": {
+        "logo": "infinity_icon",
+        "menu": ["Find Jobs", "Find Talent", "Upload Job", "About us"],
+        "profile": {
+            "name": "User",
+            "avatar": "avatar_image"
+        }
+    },
+    "search_section": {
+        "title": "Find Your Dream Job Here",
+        "fields": {
+            "job_title": "Job title or keyword",
+            "location": "Add country or city"
+        },
+        "button": "Search"
+    },
+    "recommended_jobs": {
+        "filters": {
+            "job_type": [
+                "Full time",
+                "Part time",
+                "Internship",
+                "Project work",
+                "Volunteering"
+            ],
+            "salary_range": {
+                "min": 50000,
+                "max": 120000
+            },
+            "experience_level": [
+                "Entry level",
+                "Intermediate",
+                "Expert"
+            ],
+            "job_categories": []
+        },
+        "sort": "Most recent",
+        "jobs": [
+            {
+                "title": "MLOps Engineer",
+                "company": "Amazon",
+                "tags": ["Expert", "Full-Time", "Remote"],
+                "rate": "$280/hr"
+            },
+            {
+                "title": "SOC Analyst",
+                "company": "Microsoft",
+                "tags": ["Intermediate", "Full-Time"],
+                "rate": "$220/hr"
+            },
+            {
+                "title": "Data Scientist",
+                "company": "Google",
+                "tags": ["Expert", "Full-Time", "Remote"],
+                "rate": "$300/hr"
+            }
+        ]
+    }
+}
